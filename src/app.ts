@@ -12,5 +12,4 @@ app.use(express.urlencoded({ extended: true }));
 app.get('/', (req: Request, res: Response) => {
   res.send('Hello World!');
 });
-//mahin
 export default app;
