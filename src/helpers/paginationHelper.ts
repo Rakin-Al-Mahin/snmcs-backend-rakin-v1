@@ -22,7 +22,7 @@ const calculatePagination = (options: IOptions): IOptionsResult => {
 
   const sortBy = options.sortBy || 'createdAt';
   const sortOrder = options.sortOrder || 'desc';
-  // console.log('hi');
+
   return {
     page,
     limit,
